@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8">
         <title>Сайт web-студії "Web-DECO"</title>
+    
     <script type="text/javascript">
         function send(){
             var valid = true;
@@ -17,6 +18,12 @@
                 alert('Заповніть всі поля!');
                 return false;
             }
+        }
+    </script>
+    <script src="js/script.js"></script>
+    <script>
+        window.onlaod = function(){
+            setInterval(clockPainting,1000);
         }
     </script>
     <style>
@@ -45,6 +52,7 @@
             </tr>
             <tr>
                 <td width ="30%" valign "top">
+                    <center><canvas id;"canvas" height="120" width ="120"></canvas></center>
                     <font size="5" color="navy"><h2>Новини</h2></font>
                     <font size="5">
                         <u1>
